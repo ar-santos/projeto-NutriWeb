@@ -1,11 +1,64 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ola pessoas</title>
+    <link rel="stylesheet" href="style/styleHome.css">
+    <link rel="shortcut icon" type="image/png" href="img/logo.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <title>NutriWeb</title>
 </head>
-<body>
-    <h1>olá mundo</h1>
-</body>
+    <body>
+        <section class="desktop">
+            <header class="cabecalho">
+                <div class="logo-container">
+                    <img src="img/logo.png" alt="NutriWeb" class="img-logo">
+                </div>
+                <a href="indexConta.html"><button class="btn-entrar">Entrar</button></a>
+            </header>
+
+            <div class="conteudo">
+                <div class="div-pesquisa">
+                    <span class="material-icons search-icon md-36">search</span>
+                    <input type="text" placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" class="input-pesquisa">
+                </div>
+            </div>
+
+            <div class="menu">
+                <span>Publicações</span>
+                <span>Profissionais</span>
+                <span>Premium</span>
+                <span>Ranking</span>
+                <span>Meu perfil</span>
+            </div>
+
+            <img src="img/img-nutri.png" alt="Imagem Nutri" class="img-nutri">
+        </section>
+
+        <section class="mobile">
+            
+            <div class="header">
+                <div class="menu">
+                    <span class="material-icons menu-icon md-36">menu</span>
+                </div>
+
+                <div class="logo">
+                    <img src="img/logo-mobile.png" alt="Logo">
+                </div>
+
+                <div class="user-actions">
+                    <a href="indexConta.html" class="btn-conta">Olá! Entre ou Cadastre-se</a>
+                </div>
+            </div>
+        
+            <div class="input-container">
+                <div class="input-pesquisa-container">
+                    <span class="material-icons search-mobile md-18">search</span>
+                    <input type="text" placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" class="input-pesquisa">
+                </div>
+            </div>
+
+            <img src="img/img-nutri-mobile.png" alt="Imagem Nutri" class="img-nutri-mobile"> 
+        </section>
+    </body>
 </html>
