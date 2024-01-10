@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #f8f9fa;
+    overflow-x: hidden;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #28a745;
+    color: #fff;
+}
+
+.logo-container {
+    max-width: 130px;
+    max-height: 130px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 100%;
+    height: auto;
+}
+
+.seta {
+    color: #fff;
+}
+
+.content {
+    position: relative;
+    text-align: center;
+}
+
+.img-login {
+    width: 100%;
+    max-height: 90vh;
+    object-fit: cover;
+    filter: blur(2px);
+}
+
+.form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #28a746c6;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    text-align: left;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 30px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .img-login {
+        width: 100%;
+        height: 900px;
+        max-height: none;
+        object-fit: cover;
+    }
+
+    .card {
+        width: 90%;
+    }
+}
