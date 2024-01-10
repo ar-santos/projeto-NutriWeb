@@ -89,10 +89,15 @@ img {
     color: rgba(0, 0, 0, 0.725);
     width: 80%;
     text-decoration: none;
+    outline: none;
     border: 1px solid #218838;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 40px;
     cursor: pointer;
+}
+
+.btn-link {
+    text-decoration: none;
 }
 
 @media screen and (max-width: 500px) {
