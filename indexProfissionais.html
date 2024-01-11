@@ -3,10 +3,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="style/stylePremium.css">
+        <link rel="stylesheet" href="style/styleProfissionais.css">
         <link rel="shortcut icon" type="image/png" href="img/logo.png">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-        <title>NutriWeb - Premium</title>
+        <title>NutriWeb</title>
     </head>
     <body>
         <section class="desktop">
@@ -16,30 +16,38 @@
                 </div>
             </header>
 
-            <a href="indexHome.html"><span class="botao-voltar material-icons">arrow_back</span></a>
+            
             <div class="conteudo">
                 <div class="div-pesquisa">
                     <span class="material-icons search-icon md-36">search</span>
                     <input type="text" placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" class="input-pesquisa">
                 </div>
             </div>
-    
-            <div class="card-container">
+            
+            <a href="indexHome.html" class="voltar-link">
+                <span class="botao-voltar material-icons">arrow_back</span>
+                <span class="publicacoes-text">Profissionais</span>
+            </a>
+
+            <div class="cards-container">
                 <div class="card">
-                    <h2>Plano Gratuito</h2>
-                    <p>  • 2 postagens por semana;</p>
-                    <p>  • Menos visibilidade.</p>
-                    <button class="botao-verde">Continuar Grátis</button>
+                  <img src="img/img-perfil-publi.jpg" alt="Imagem 1">
+                  <div class="name">Nome 1</div>
+                  <div class="specialty">Especialidade:</div>
                 </div>
-    
+            
                 <div class="card">
-                    <h2>Plano Premium</h2>
-                    <p> • R$ ao mês</p>
-                    <p>  • Postagens ilimitadas;</p>
-                    <p>  • Maior visibilidade.</p>
-                    <button class="botao-verde">Assinar Plano Premium</button>
+                  <img src="img/img-perfil-publi.jpg" alt="Imagem 2">
+                  <div class="name">Nome 2</div>
+                  <div class="specialty">Especialidade:</div>
                 </div>
-            </div>
+                
+                <div class="card">
+                  <img src="img/img-perfil-publi.jpg" alt="Imagem 3">
+                  <div class="name">Nome 3</div>
+                  <div class="specialty">Especialidade:</div>
+                </div>
+              </div>
         </section>
 
         <section class="mobile">
@@ -66,31 +74,32 @@
                     <a href="indexHome.html"><img src="img/logo-mobile.png" alt="NutriWeb" class="img-logo"></a>
                 </div>
             </div>
-        
-            <div class="input-container">
-                <div class="input-pesquisa-container">
-                    <span class="material-icons search-mobile md-18">search</span>
-                    <input type="text" placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" class="input-pesquisa">
-                </div>
-            </div>
 
-            <div class="card-container">
+            <a href="indexHome.html" class="voltar-link">
+                <span class="publicacoes-text">Profissionais</span>
+            </a>
+
+            <div class="cards-container">
                 <div class="card">
-                    <h2>Plano Gratuito</h2>
-                    <p>  • 2 postagens por semana;</p>
-                    <p>  • Menos visibilidade.</p>
-                    <button class="botao-verde">Continuar Grátis</button>
+                  <img src="img/img-perfil-publi.jpg" alt="Imagem 1">
+                  <div class="name">Nome 1</div>
+                  <div class="specialty">Especialidade:</div>
                 </div>
-    
+            
                 <div class="card">
-                    <h2>Plano Premium</h2>
-                    <p> • R$ ao mês</p>
-                    <p>  • Postagens ilimitadas;</p>
-                    <p>  • Maior visibilidade.</p>
-                    <button class="botao-verde">Assinar Plano Premium</button>
+                  <img src="img/img-perfil-publi.jpg" alt="Imagem 2">
+                  <div class="name">Nome 2</div>
+                  <div class="specialty">Especialidade:</div>
                 </div>
-            </div>
+                
+                <div class="card">
+                  <img src="img/img-perfil-publi.jpg" alt="Imagem 3">
+                  <div class="name">Nome 3</div>
+                  <div class="specialty">Especialidade:</div>
+                </div>
+              </div>
         </section>
+
     </body>
     <script src="script/scriptHomeMenu.js"></script>
 </html>
