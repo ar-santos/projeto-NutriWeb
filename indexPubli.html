@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style/stylePubli.css">
+        <link rel="shortcut icon" type="image/png" href="img/logo.png">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+        <title>NutriWeb - Publicações</title>
+    </head>
+    <body>
+        <section class="desktop">
+            <header class="cabecalho">
+                <div class="logo-container">
+                    <a href="indexHome.html"><img src="img/logo.png" alt="NutriWeb" class="img-logo"></a>
+                </div>
+            </header>
+
+            
+            <div class="conteudo">
+                <div class="div-pesquisa">
+                    <span class="material-icons search-icon md-36">search</span>
+                    <input type="text" placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" class="input-pesquisa">
+                </div>
+            </div>
+            
+            <a href="indexHome.html" class="voltar-link">
+                <span class="botao-voltar material-icons">arrow_back</span>
+                <span class="publicacoes-text">Publicações</span>
+            </a>
+
+            <div class="publicacao-container">
+                <div class="publicacao-card">
+                    <div class="perfil">
+                        <img src="img/img-perfil-publi.jpg" alt="Foto de Perfil" class="perfil-img">
+                        <span class="nome">Nome</span>
+                        <span class="coracao material-icons">favorite</span>
+                    </div>
+        
+                    <div class="publicacao">
+                        <img src="img/img-publi.jpg" alt="Imagem da Publicação" class="publicacao-img">
+                        <p class="legenda">Legenda da publicação aqui.</p>
+                    </div>
+                </div>
+                
+                <div class="publicacao-card">
+                    <div class="perfil">
+                        <img src="img/img-perfil-publi.jpg" alt="Foto de Perfil" class="perfil-img">
+                        <span class="nome">Nome</span>
+                        <span class="coracao material-icons">favorite</span>
+                    </div>
+        
+                    <div class="publicacao">
+                        <img src="img/img-publi.jpg" alt="Imagem da Publicação" class="publicacao-img">
+                        <p class="legenda">Legenda da publicação aqui.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mobile">
+            <div class="header">
+                <div class="menu" id="menuIcon">
+                    <span class="material-icons menu-icon md-36">menu</span>
+                </div>
+                
+                <div class="mobile-menu" id="mobileMenu">
+                    <div class="close-menu-container">
+                        <span class="material-icons close-icon md-36" id="closeIcon">close</span>
+                        <span id="menuLabel">Menu</span>
+                    </div>
+                    <ul>
+                        <li>Publicações</li>
+                        <li>Profissionais</li>
+                        <a href="indexPremium.html" class="btn-premium"><li>Premium</li></a>
+                        <li>Ranking</li>
+                        <li>Meu perfil</li>
+                    </ul>
+                </div>
+
+                <div class="logo">
+                    <a href="indexHome.html"><img src="img/logo-mobile.png" alt="NutriWeb" class="img-logo"></a>
+                </div>
+            </div>
+
+            <div class="input-container">
+                <div class="input-pesquisa-container">
+                    <span class="material-icons search-mobile md-18">search</span>
+                    <input type="text" placeholder="O QUE VOCÊ ESTÁ PROCURANDO?" class="input-pesquisa">
+                </div>
+            </div>
+
+            <div class="publicacao-container">
+                <div class="publicacao-card">
+                    <div class="perfil">
+                        <img src="img/img-perfil-publi.jpg" alt="Foto de Perfil" class="perfil-img">
+                        <span class="nome">Nome</span>
+                        <span class="coracao material-icons">favorite</span>
+                    </div>
+        
+                    <div class="publicacao">
+                        <img src="img/img-publi.jpg" alt="Imagem da Publicação" class="publicacao-img">
+                        <p class="legenda">Legenda da publicação aqui.</p>
+                    </div>
+                </div>
+                
+                <div class="publicacao-card">
+                    <div class="perfil">
+                        <img src="img/img-perfil-publi.jpg" alt="Foto de Perfil" class="perfil-img">
+                        <span class="nome">Nome</span>
+                        <span class="coracao material-icons">favorite</span>
+                    </div>
+        
+                    <div class="publicacao">
+                        <img src="img/img-publi.jpg" alt="Imagem da Publicação" class="publicacao-img">
+                        <p class="legenda">Legenda da publicação aqui.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </body>
+    <script src="script/scriptHomeMenu.js"></script>
+</html>
