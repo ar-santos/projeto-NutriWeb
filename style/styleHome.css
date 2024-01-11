@@ -97,7 +97,8 @@ img {
 
 .btn-premium{
     text-decoration: none;
-    color: #fff;
+    padding: 20px;
+    color: rgb(139, 136, 136);
 }
 
 .img-nutri {
