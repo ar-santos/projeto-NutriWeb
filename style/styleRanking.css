@@ -1,0 +1,267 @@
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.logo-container {
+    max-width: 130px;
+    max-height: 130px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 100%;
+    height: auto;
+}
+
+.botao-voltar {
+    background-color: none;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    left: 20px;
+    top: 270px;
+}
+
+.conteudo {
+    background-color: #28a745;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.div-pesquisa {
+    display: flex;
+    width: 70%;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 100px;
+    margin: auto;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.203);
+    cursor: pointer;
+}
+
+.search-icon {
+    color: rgb(139, 136, 136);
+    font-size: 90px;
+    margin: 0px 10px 0px 10px;
+    border: none;
+}
+
+.material-icons.md-36 { font-size: 36px; }
+
+.input-pesquisa {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+}
+
+.voltar-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.publicacoes-text {
+    color: rgb(139, 136, 136);
+    margin-top: 50px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(139, 136, 136);
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    border-right: none;
+    border-left: none;
+}
+
+th {
+    background-color: #28a745; 
+    color: white; 
+}
+
+.retangulo-verde {
+    width: 60px;
+    height: 10px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 770px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        background-color: #28a745;
+        color: #fff;
+    }
+    
+    .menu-icon {
+        font-size: 10px;
+        color: #fff;
+    }
+
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 40%;
+        max-width: 300px;
+        height: 30vh;
+        background-color: #28a745;
+        z-index: 1000;
+        text-align: center;
+        padding-top: 10px;
+        border-radius: 10%;
+        overflow-y: auto;
+    }
+    
+    .close-menu-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .close-icon {
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    #menuLabel {
+        font-size: 18px;
+        color: #fff;
+        margin-left: 10px;
+    }
+    
+    .mobile-menu ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .mobile-menu li {
+        font-size: 14px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        color: #fff;
+    }
+    
+    .logo {
+        width: 100px;
+        margin: 0 auto;
+    }
+    
+    .logo img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .btn-conta {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+        border: none; 
+        cursor: pointer;
+    }
+
+    .search-mobile {
+        margin: 0px 10px 0px 10px;
+        color: rgb(139, 136, 136);
+    }
+    
+    .input-container {
+        background-color: #28a745;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    .search-icon {
+        font-size: 10px;
+        margin-right: 10px;
+        color: black;
+    }
+    
+    .input-pesquisa-container {
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .input-pesquisa {
+        flex: 1;
+        padding: 10px;
+        border: none;
+        width: 100%;
+        background-color: transparent;
+        color: #000;
+        font-size: 10px;
+        min-width: 150px;
+    }
+
+    .btn-premium{
+        text-decoration: none;
+    }
+}    
